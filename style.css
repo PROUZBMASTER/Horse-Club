@@ -1,0 +1,691 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Philosopher', sans-serif;
+}
+
+nav {
+    padding-top: 9px;
+    background: url(./img/background.jpg);
+    height: 948px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.list {
+    margin-top: 25px;
+    display: flex;
+}
+
+.item {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    margin-left: 30px;
+    text-transform: uppercase;
+    color: #202020;
+}
+
+.item:hover {
+    border-bottom: 2px solid #008139;
+    cursor: pointer;
+}
+
+.oku {
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 57px;
+    line-height: 107%;
+    color: #000000;
+    margin-top: 99px;
+    margin-bottom: 40px;
+}
+
+.urok {
+    font-family: 'Alegreya Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    color: #646464;
+    margin-bottom: 42px;
+}
+
+.btn1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #6A5300;
+    padding: 21px 75px;
+    background-color: #FFDF49;
+    border-radius: 5px;
+    border: none;
+}
+
+.qiz {
+    width: 557px;
+    height: 671px;
+    margin-top: 95px;
+    margin-left: 80px;
+}
+
+.nashe {
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    color: #363434;
+    margin-bottom: 89px;
+}
+
+.oloi {
+    margin-left: -100px;
+    background: url(./img/ot.jpg);
+    height: 100%;
+    width: 114%;
+    background-size: cover;
+}
+
+.nomer {
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    color: #008139;
+}
+
+.dovol {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    color: #0B0B0B;
+    margin-bottom: 24px;
+}
+
+.ca {
+    margin-right: 65px;
+}
+
+.bigdiv {
+    display: flex;
+}
+
+.long {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    color: #7E7E7E;
+}
+
+.poch {
+    margin-top: 185px;
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    color: #363434;
+    margin-bottom: 25px;
+}
+
+.pod {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: center;
+    color: #363434;
+    margin-bottom: 76px;
+}
+
+.ard {
+    text-align: center;
+}
+
+.udo {
+    margin-top: 24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    text-align: center;
+    color: #0B0B0B;
+    margin-bottom: 26px;
+}
+
+.mi {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 151.7%;
+    color: #7E7E7E;
+}
+
+.nap {
+    margin-top: 200px;
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    color: #363434;
+    margin-bottom: 25px;
+}
+
+/*-------- section2 start-------- */
+.section2 {
+    background: url(./img/bak2.png);
+    height: 1015px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bard {
+    text-align: center;
+    background: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    box-shadow: 0px 14px 30px rgba(0, 0, 0, 0.07);
+    border-radius: 5px;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 55px;
+}
+
+.bardh {
+    margin-top: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #363434;
+}
+
+.bardp {
+    margin-top: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #7E7E7E;
+}
+
+.btn3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #6A5300;
+    padding: 15px 52px;
+    border-radius: 5px;
+    border: none;
+    background-color: #FFDF49;
+}
+
+.tayor {
+    margin-top: 50px;
+    margin-left: -330px;
+}
+
+.nashi {
+    margin-top: 150px;
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    color: #363434;
+    margin-bottom: 70px;
+}
+
+.dard {
+    background: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    box-shadow: 0px 14px 30px rgba(0, 0, 0, 0.07);
+    border-radius: 5px;
+    width: 320px;
+    height: 580px;
+    text-align: center;
+}
+
+.dardh {
+    margin-top: 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    color: #363434;
+    margin-bottom: 51px;
+}
+
+.dardp {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    color: #7E7E7E;
+}
+
+.d1 {
+    width: 100%;
+}
+
+.nas {
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    color: #000000;
+    margin-top: 121px;
+    margin-bottom: 70px;
+}
+
+.ward {
+    background: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    box-shadow: 0px 16px 51px rgba(0, 0, 0, 0.11);
+    border-radius: 5px;
+    height: 291px;
+}
+
+.wardp {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    color: #363434;
+    margin-top: 40px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.btn5 {
+    margin-left: 215px;
+    margin-top: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    color: #008139;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    border: none;
+    padding: 7px 40px;
+}
+
+.w1 {
+    margin-top: 45px;
+    margin-left: 45px;
+}
+footer{
+    margin-top: 30px;
+    background: #0B0B0B;
+    height: 138px;
+}
+.lis{
+    margin-top: 41px;
+    display: flex;
+}
+.it{
+    margin-left: 25px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+color: #EAEAEA;
+}
+.btn6{
+    margin-left: 29px;
+    margin-top: 25px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+color: #F5F5F5;
+border: 1px solid #FDE724;
+border-radius: 5px;
+background: transparent;
+width: 201px;
+height: 46px;
+}
+.end{
+    margin-right: 40px;
+    margin-top: 26px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+text-decoration-line: underline;
+color: #7D808A;
+}
+
+
+
+/* --------------------------------Responsive----------------- */
+@media (max-width: 575px) {
+    nav {
+        padding-top: 15px;
+        background: url(./img/background.jpg);
+        height: 650px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .oku {
+        font-family: 'Philosopher';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 27px;
+        color: #000000;
+        text-align: center;
+        margin-top: 97px;
+        margin-bottom: 31px;
+    }
+
+    .urok {
+        font-family: 'Alegreya Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 18px;
+        color: #646464;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .btn1 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        letter-spacing: 0.07em;
+        text-transform: uppercase;
+        color: #6A5300;
+        text-align: center;
+        padding: 16px 45px;
+        background-color: #FFDF49;
+        border-radius: 5px;
+        border: none;
+    }
+
+    .loli {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 25px;
+    }
+
+    .kok {
+        justify-content: end;
+    }
+
+    .nashe {
+        font-family: 'Philosopher';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 21px;
+        text-align: center;
+        color: #363434;
+        margin-bottom: 35px;
+    }
+
+    .bigdiv {
+        display: inline;
+    }
+
+    .ca {
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .nomer {
+        font-family: 'Philosopher';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 27px;
+        color: #008139;
+    }
+
+    .dovol {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        color: #0B0B0B;
+    }
+
+    .long {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 19px;
+        color: #7E7E7E;
+        text-align: center;
+    }
+
+    .poch {
+        margin-top: 70px;
+        font-family: 'Philosopher';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 21px;
+        text-align: center;
+        color: #363434;
+        margin-bottom: 10px;
+    }
+
+    .pod {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 13px;
+        text-align: center;
+        color: #363434;
+        margin-bottom: 35px;
+    }
+
+    .udo {
+        margin-top: 20px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        text-align: center;
+        color: #0B0B0B;
+        margin-bottom: 10px;
+    }
+
+    .ard {
+        margin-bottom: 45px;
+    }
+
+    .nap {
+        margin-top: 75px;
+        font-family: 'Philosopher';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 21px;
+        text-align: center;
+        color: #363434;
+        margin-bottom: 10px;
+    }
+
+    .pod {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 15px;
+        text-align: center;
+        color: #363434;
+    }
+
+    .section2 {
+        background: none;
+
+    }
+
+    .btn3 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 10px;
+        letter-spacing: 0.07em;
+        text-transform: uppercase;
+        color: #6A5300;
+        padding: 15px 46px;
+        border-radius: 5px;
+        border: none;
+        background-color: #FFDF49;
+    }
+
+    .opo {
+        text-align: center;
+    }
+
+    .section3 {
+        margin-top: 1400px;
+    }
+
+    .lolip {
+        text-align: center;
+    }
+
+    .nashi {
+        margin-top: 80px;
+        font-family: 'Philosopher';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 21px;
+        text-align: center;
+        color: #363434;
+        margin-bottom: 35px;
+    }
+
+    .bard {
+        text-align: center;
+        background: #FFFFFF;
+        border: 1px solid #EAEAEA;
+        box-shadow: 0px 14px 30px rgb(0 0 0 / 7%);
+        border-radius: 5px;
+        width: 251px;
+        height: 300px;
+        margin-bottom: 55px;
+    }
+
+    .dard {
+        background: #FFFFFF;
+        border: 1px solid #EAEAEA;
+        box-shadow: 0px 14px 30px rgba(0, 0, 0, 0.07);
+        border-radius: 5px;
+        width: 230px;
+        height: 390px;
+        text-align: center;
+        margin-bottom: 66px;
+    }
+
+    .dardh {
+        margin-top: 19px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        color: #363434;
+        margin-bottom: 21px;
+    }
+
+    .dardp {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 20px;
+        text-align: center;
+        color: #7E7E7E;
+    }
+
+    .nas {
+        font-family: 'Philosopher';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 21px;
+        text-align: center;
+        color: #000000;
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+
+    .wardp {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 21px;
+        color: #363434;
+        margin-top: 20px;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 0;
+    }
+
+    .btn5 {
+        margin-left: 110px;
+        margin-top: 10px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        text-align: center;
+        color: #008139;
+        background: #FFFFFF;
+        box-shadow: 0px 5px 15px rgb(0 0 0 / 6%);
+        border-radius: 5px;
+        border: none;
+        padding: 9px 21px;
+    }
+
+    .w1 {
+        margin-top: 24px;
+        margin-left: 20px;
+    }
+
+    .ward {
+        width: 100%;
+        background: #FFFFFF;
+        border: 1px solid #EAEAEA;
+        box-shadow: 0px 16px 51px rgb(0 0 0 / 11%);
+        border-radius: 5px;
+        height: 263px;
+        margin-bottom: 30px;
+    }
+    footer{
+        height: 400px;
+    }
+
+}
